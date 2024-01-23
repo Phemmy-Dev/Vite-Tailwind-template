@@ -1,5 +1,7 @@
 import ImpactBg from "../../../assets/images/impactmetricsBG1.jpg"
 import CountUp from 'react-countup';
+import { motion } from "framer-motion";
+
 
 
 const ImpactMetrics = () => {
@@ -9,7 +11,11 @@ const ImpactMetrics = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         {/* Content */}
         <div className="relative z-10 text-white h-full"> {/* Content Container */}
-            <div className="h-full px-7 md:mx-32 py-40 md:p-32 flex flex-col gap-52">{/* Metrics Container */}
+            <motion.div 
+            className="h-full px-7 md:mx-32 py-40 md:p-32 flex flex-col gap-52"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0 }}>{/* Metrics Container */}
                 <div className="flex flex-row justify-between items-center"> {/* First row Metrics Container */}
                     <div className="flex flex-col justify-center items-center"> {/* First Metric Container */}
                         <CountUp end={4} className="text-4xl md:text-6xl font-extrabold" suffix="+" />
@@ -30,7 +36,7 @@ const ImpactMetrics = () => {
                         <p className="text-xl font-medium text-center">Universities <br />Reached</p>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </div>
     </div>
   )
