@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"; 
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import image1 from "../../../assets/images/herofaces/1.jpg";
@@ -20,9 +20,16 @@ import image16 from "../../../assets/images/herofaces/16.jpg";
 
 const Hero = () => {
   return (
-    <div>
+    <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{delay: 1, duration: 1.5 }}>
+      
       <section className="w-full px-3 md:px-20 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-full mx-auto bg-equiprGray">
-      <div>
+      <motion.div 
+      initial={{ opacity: 0, x: -400 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{delay: 1, duration: 1.5 }}>
         <span className="block mb-4 text-xs md:text-sm text-primary font-medium">
           Ignite Purpose
         </span>
@@ -35,10 +42,10 @@ const Hero = () => {
         <Link to={"join"} className="bg-primary text-white font-semibold py-2 px-4 rounded transition-all hover:bg-blue-400 active:scale-95 ">
         Join Us
         </Link>
-      </div>
+      </motion.div>
       <ShuffleGrid />
     </section>
-    </div>
+    </motion.div>
   )
 }
 
