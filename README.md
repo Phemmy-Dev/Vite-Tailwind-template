@@ -32,7 +32,7 @@ Make sure you have **Node.js** and **npm** installed on your system.
 ### Clone the Repository
 Clone the project using Git:
 ```bash
-git clone https://github.com/your-username/vite-tailwind-template.git
+git clone https://github.com/Phemmy-Dev/Vite-Tailwind-template.git
 cd vite-tailwind-template
 ```
 
