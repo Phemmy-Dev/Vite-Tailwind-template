@@ -73,7 +73,7 @@ This template can be used to build a variety of web projects, such as:
 
 ## Contributing
 Contributions are welcome! If you have ideas to improve this template or encounter issues, feel free to:
-- Open an issue on [GitHub](https://github.com/your-username/vite-tailwind-template/issues).
+- Open an issue on [GitHub](https://github.com/Phemmy-Dev/Vite-Tailwind-template/issues).
 - Fork the repository and submit a pull request.
 
 ### Steps to Contribute:
