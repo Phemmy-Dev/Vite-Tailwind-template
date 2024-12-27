@@ -11,8 +11,10 @@ Welcome to the **Vite + Tailwind CSS Starter Template**! This repository provide
    - [Install Dependencies](#install-dependencies)
    - [Start Development Server](#start-development-server)
    - [Build for Production](#build-for-production)
-3. [Example Usage](#example-usage)
-4. [Contributing](#contributing)
+3. [Changing the Project Name](#changing-the-project-name)
+4. [Creating a New GitHub Repository](#creating-a-new-github-repository)
+5. [Example Usage](#example-usage)
+6. [Contributing](#contributing)
 
 ---
 
@@ -32,7 +34,7 @@ Make sure you have **Node.js** and **npm** installed on your system.
 ### Clone the Repository
 Clone the project using Git:
 ```bash
-git clone https://github.com/Phemmy-Dev/Vite-Tailwind-template.git
+git clone https://github.com/your-username/vite-tailwind-template.git
 cd vite-tailwind-template
 ```
 
@@ -58,6 +60,76 @@ The build files will be output to the `dist` directory.
 
 ---
 
+## Changing the Project Name
+After cloning the repository, you may want to rename it to suit your specific project. Follow these steps:
+
+1. **Navigate to the Parent Directory**:
+   If you're currently inside the project folder, move up one level:
+   ```bash
+   cd ..
+   ```
+
+2. **Rename the Folder**:
+   Use the `mv` command to rename the folder:
+   ```bash
+   mv vite-tailwind-template your-new-project-name
+   ```
+
+3. **Navigate to the New Folder**:
+   ```bash
+   cd your-new-project-name
+   ```
+
+4. **Update `package.json`**:
+   Open the `package.json` file and update the `name` field to match your new project name:
+   ```json
+   "name": "your-new-project-name",
+   ```
+
+5. **Install Dependencies Again** (Optional):
+   If necessary, reinstall dependencies:
+   ```bash
+   npm install
+   ```
+
+---
+
+## Creating a New GitHub Repository
+To push your renamed project to a new GitHub repository, follow these steps:
+
+1. **Create a New Repository on GitHub**:
+   - Go to [GitHub](https://github.com/).
+   - Click on the "New" button to create a new repository.
+   - Name your repository and configure it as needed (e.g., public or private).
+
+2. **Initialize Git in Your Project**:
+   If not already initialized, run:
+   ```bash
+   git init
+   ```
+
+3. **Add the New Remote Repository**:
+   Replace `your-repo-url` with the URL of your new repository:
+   ```bash
+   git remote add origin your-repo-url
+   ```
+
+4. **Stage and Commit Your Changes**:
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   ```
+
+5. **Push to the New Repository**:
+   ```bash
+   git branch -M main
+   git push -u origin main
+   ```
+
+Your project is now linked to the new GitHub repository!
+
+---
+
 ## Example Usage
 This template can be used to build a variety of web projects, such as:
 - Landing pages
@@ -73,7 +145,7 @@ This template can be used to build a variety of web projects, such as:
 
 ## Contributing
 Contributions are welcome! If you have ideas to improve this template or encounter issues, feel free to:
-- Open an issue on [GitHub](https://github.com/Phemmy-Dev/Vite-Tailwind-template/issues).
+- Open an issue on [GitHub](https://github.com/your-username/vite-tailwind-template/issues).
 - Fork the repository and submit a pull request.
 
 ### Steps to Contribute:
