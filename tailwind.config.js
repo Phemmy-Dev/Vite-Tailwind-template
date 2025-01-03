@@ -12,6 +12,9 @@ export default {
         equiprGray: "#f4f4f4",
         foreground: "hsl(var(--foreground))",
       },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [
