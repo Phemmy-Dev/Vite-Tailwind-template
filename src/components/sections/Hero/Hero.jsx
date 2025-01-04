@@ -20,7 +20,7 @@ import image16 from "../../../assets/images/herofaces/16.jpg";
 const Hero = () => {
   return (
     <div>
-      <section className="w-full px-20 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-full mx-auto bg-equiprGray">
+      <section className="w-full px-3 md:px-20 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-full mx-auto bg-equiprGray">
       <div>
         <span className="block mb-4 text-xs md:text-sm text-primary font-medium">
           Ignite Purpose
