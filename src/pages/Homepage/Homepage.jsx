@@ -17,6 +17,7 @@ const Homepage = () => {
       <ImpactMetrics />
       <Spacer />
       <CTA />
+      <Spacer />
       <Footer />
     </div>
   )
