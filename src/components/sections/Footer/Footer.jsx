@@ -16,7 +16,7 @@ const Footer = () => {
       {/* Content */}
       <div className="relative z-10 text-white">
         <div>
-            <div className="container mx-auto pt-20 px-32  flex flex-col md:flex-row items-center justify-between ">
+            <div className="container mx-auto pt-20 max-w-80 md:max-w-5xl  flex flex-row md:flex-row items-center justify-between ">
                 {/* Logo */}
                 <div className="">
                 <Link to={"/"}>
@@ -44,13 +44,13 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="container mx-auto py-10 mt-4  border-t-2 border-equiprGray max-w-5xl">
+            <div className="container mx-auto py-10 mt-4 border-t-2 border-equiprGray max-w-80 md:max-w-5xl">
                 <div className="flex justify-between items-center">
                     <div className="flex gap-4">
-                        <FaXTwitter className="text-white text-2xl bg-primary w-8 h-8 p-1 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out"/>
-                        <IoLogoInstagram className="text-white text-2xl bg-primary w-8 h-8 p-1 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out"/>
+                        <a href="https://x.com/EquiprTeam" target="_blank"><FaXTwitter className="text-white text-2xl bg-primary w-8 h-8 p-1 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out"/></a>
+                        <a href="https://www.instagram.com/equiprteam/" target="_blank"><IoLogoInstagram className="text-white text-2xl bg-primary w-8 h-8 p-1 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out"/></a>
                     </div>
-                    <p className="text-white text-sm">© 2025 EquipR. All rights reserved</p>
+                    <p className="text-white text-xs md:text-sm">© 2025 EquipR. All rights reserved</p>
                 </div>
             </div>
         </div>
