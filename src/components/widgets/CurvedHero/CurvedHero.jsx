@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import propTypes from 'prop-types'
 
 
@@ -9,7 +9,7 @@ const CurvedHero = (props) => {
         className="bg-cover bg-center relative w-[97%] my-10 rounded-2xl overflow-hidden flex justify-center items-center"
         style={{ backgroundImage: `url(${props.img})` }}>
               {/* Dark overlay */}
-            <div className="absolute inset-0 bg-black opacity-60"></div>
+            <div className="absolute inset-0 bg-black opacity-65"></div>
 
             <div className="relative z-10 text-white py-36 text-center">
                 <h2 className='text-3xl font-bold text-primary md:text-6xl mb-5'>{props.heading}</h2>
