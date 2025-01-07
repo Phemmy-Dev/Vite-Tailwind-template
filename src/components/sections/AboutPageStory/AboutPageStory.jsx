@@ -5,21 +5,21 @@ import Femi from '../../../assets/images/femi.jpg'
 const AboutPageStory = () => {
   return (
     <div className="flex justify-center items-center  ">
-        <div className="container flex flex-col justify-center p-10 items-center w-[95%] gap-20  md:flex-row">
+        <div className="container flex flex-col justify-center p-10 items-center  w-full md:w-[95%] gap-20  md:flex-row">
             {/* Left Section */}
             <div className="left_section md:w-2/5 flex gap-10 h-full items-center">
-                <div className="first_img w-[100px] h-[200px] md:w-[250px] md:h-[400px]  ">
+                <div className="first_img w-[160px] h-[200px] md:w-[250px] md:h-[400px]  ">
                 <img src={Innocent} alt="" className="rounded-xl"/>
                 </div>
 
-                <div className="second_img w-[100px] h-[200px] md:w-[250px] md:h-[400px]  mt-24">
+                <div className="second_img w-[160px] h-[200px] md:w-[250px] md:h-[400px]  mt-24">
                 <img src={Femi} alt="" className="rounded-xl"/>
                 </div>
                 
             </div>
 
             {/* Right Section */}
-            <div className="right_section md:w-1/2">
+            <div className="right_section w-full md:w-1/2">
                 <h2 className="text-3xl font-bold text-primary md:text-6xl mb-2">Our Story</h2>
                 <div className="w-24 h-1 bg-primary mb-5"></div> {/* Underline */}
                 <p className="text-sm"> At Equip-r, we connect young minds with tools to enhance their search for relevance in their chosen sector of influence. We create learning opportunities, environments that allow young people to flourish and go beyond the boundaries of their current location within Sub-Saharan Africa. We achieve this by partnering with global organisations and network; providing tools to empower them: training, mentorship, grants, equipment that allows them to tap into networking environments made possible by technological advancements.

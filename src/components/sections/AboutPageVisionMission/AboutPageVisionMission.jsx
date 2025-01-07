@@ -5,7 +5,7 @@ import VisionImage from '../../../assets/images/impactmetricsBG2.jpg'
 const AboutPageVisionMission = () => {
   return (
     <div className='flex justify-center items-center bg-primary py-10'>
-      <div className="container  w-[95%] flex  flex-col md:flex-row">
+      <div className="container  w-[95%] flex  flex-col justify-center items-center md:flex-row">
         {/* Left Side */}
         <div className="md:w-1/2 flex flex-col justify-center items-center">
         <Goalbox title={"Our Vision"} description={"Create ecosystems that will bridge gaps in education and networking, creating sustainable opportunities for generations of young people and their families in Sub-Saharan Africa."}/>
@@ -13,7 +13,7 @@ const AboutPageVisionMission = () => {
         </div>
         {/* Right Side */}
         <div className="md:w-1/2">
-        <img src={VisionImage} alt=""  className='rounded-2xl'/>
+        <img src={VisionImage} alt=""  className='rounded-2xl w-[350px] md:w-full'/>
         </div>
       </div>
     </div>
