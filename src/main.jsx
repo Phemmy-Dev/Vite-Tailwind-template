@@ -4,6 +4,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './index.css'
 import Homepage from './pages/Homepage/Homepage.jsx';
 import AboutPage from './pages/AboutPage/AboutPage.jsx';
+import ContactPage from './pages/ContactPage/ContactPage.jsx';
 
 
 
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/contact',
-    // element: <App />,
+    element: <ContactPage />,
   },
   {
     path: '/terms',
@@ -38,7 +39,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/contact',
-    // element: <App />,
+    // element: <ContactPage />,
   },
 
 ]);
