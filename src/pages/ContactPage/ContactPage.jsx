@@ -1,7 +1,7 @@
 // import React from 'react'
 import Navbar from '../../components/widgets/Navbar/Navbar'
 import CurvedHero from '../../components/widgets/CurvedHero/CurvedHero'
-import CurvedHeroImg from '../../assets/images/footer_img.jpg'
+import ContactImg from '../../assets/images/contactImg3.jpg'
 import ContactBox from '../../components/widgets/ContactBox/ContactBox'
 import Mail from '../../assets/images/mail.png'
 import Phone from '../../assets/images/phone.png'
@@ -13,7 +13,7 @@ const ContactPage = () => {
   return (
     <div>
       <Navbar isTransparent={false} />
-      <CurvedHero img={CurvedHeroImg} heading={"Contact Us"} subHeading={"Get In Touch With Us"}/>
+      <CurvedHero img={ContactImg} heading={"Contact Us"} subHeading={"Get In Touch With Us"}/>
 
       <div className="contact_cont  justify-between px-20 items-center mb-10">
         {/* <h1 className='text-3xl text-center font-bold mb-9'>Get in touch with us</h1> */}
