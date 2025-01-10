@@ -24,6 +24,11 @@ export default {
         '2xl': '1536px', // Custom extra large breakpoint
         '3xl': '1600px', // Custom large breakpoint
       },
+      boxShadow: {
+        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+        '4xl': '0 45px 75px -20px rgba(0, 0, 0, 0.4)',
+        'deep': '0 8px 30px rgba(0, 0, 0, 0.25)', // Custom deep shadow
+      },
     },
   },
   plugins: [
