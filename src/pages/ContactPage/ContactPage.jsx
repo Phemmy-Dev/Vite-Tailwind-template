@@ -19,7 +19,7 @@ const ContactPage = () => {
         {/* <h1 className='text-3xl text-center font-bold mb-9'>Get in touch with us</h1> */}
 
         <div className="boxes flex justify-center items-center gap-20 flex-col md:flex-row">
-          <a href="tel:09081002507"><ContactBox img={Phone} title="Phone" desc="09081002507"/></a>
+          <a href="tel:09081002507"><ContactBox img={Phone} title="Phone Line" desc="09081002507"/></a>
           <a href="mailto:equiprteam@gmail.com"><ContactBox img={Mail} title="Email" desc="equiprteam@gmail.com"/></a>
           <a href="https://www.instagram.com/equiprteam/"><ContactBox img={Instagram} title="Instagram" desc="equiprteam"/></a>
           <a href="https://x.com/EquiprTeam"><ContactBox img={Twitter} title="Twitter (X)" desc="EquiprTeam"/></a>
