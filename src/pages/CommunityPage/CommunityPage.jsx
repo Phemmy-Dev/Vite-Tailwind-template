@@ -1,8 +1,9 @@
-import React from 'react';
 import Navbar from '../../components/widgets/Navbar/Navbar';
 import CommunityImg from '../../assets/images/communityImg.jpg';
 import CountUp from 'react-countup';
+import CommunityBoxes from '../../components/widgets/CommunityBoxes/CommunityBoxes';
 import Footer from '../../components/sections/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 const CommunityPage = () => {
   return (
@@ -25,9 +26,9 @@ const CommunityPage = () => {
           <h2 className="text-white text-4xl font-bold w-[70%]">Connect, Share and Grow</h2>
           <p className='w-[70%]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, ducimus.</p>
           <div className="button">
-            <a href="" className="bg-primary text-xl px-4 py-1 rounded-md inline-block text-white">
+          <Link to="/join" className="bg-primary text-xl px-4 py-1 rounded-md inline-block text-white">
               Join Now
-            </a>
+            </Link>
           </div>
 
           <div className="counter flex gap-10 mt-5">
@@ -46,6 +47,22 @@ const CommunityPage = () => {
           </div>
         </div>
       </div>
+      
+      {/* Community content */}
+      <div className=" px-10">
+        <h2 className='text-center font-bold text-6xl text-primary mb-1'>Our Community</h2>
+        <p className='text-center text-gray-600 text-sm mb-9'>Lorem ipsum dolor sit amet.</p>
+        <div className="communityboxes mb-10 flex flex-wrap gap-5">
+          <Link to="/community/batch1" className="communitybox"><CommunityBoxes comtitle={"Batch 1"} /></Link>
+          <Link to="/community/batch2" className="communitybox"><CommunityBoxes comtitle={"Batch 2"} /></Link>
+          <Link to="/community/batch3" className="communitybox"><CommunityBoxes comtitle={"Batch 3"} /></Link>
+          <Link to="/community/batch4" className="communitybox"><CommunityBoxes comtitle={"Batch 4"} /></Link>
+          <Link to="/community/batch5" className="communitybox"><CommunityBoxes comtitle={"Batch 5"} /></Link>
+        </div>
+      </div>
+
+      {/* Why Join Us */}
+      <div className=""></div>
       <Footer />
     </div>
   );
