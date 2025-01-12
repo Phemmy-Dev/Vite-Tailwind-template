@@ -4,6 +4,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './index.css'
 import Homepage from './pages/Homepage/Homepage.jsx';
 import AboutPage from './pages/AboutPage/AboutPage.jsx';
+import CommunityPage from './pages/CommunityPage/CommunityPage.jsx';
 import ContactPage from './pages/ContactPage/ContactPage.jsx';
 
 
@@ -18,12 +19,12 @@ const router = createBrowserRouter([
     element: <AboutPage />,
   },
   {
-    path: '/advertise',
+    path: '/programs',
     // element: <App />,
   },
   {
-    path: '/about',
-    // element: <App />,
+    path: '/community',
+    element: <CommunityPage />,
   },
   {
     path: '/contact',
