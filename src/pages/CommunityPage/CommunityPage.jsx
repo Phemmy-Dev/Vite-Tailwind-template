@@ -4,6 +4,7 @@ import CommunityImg from '../../assets/images/communityImg.jpg';
 import CountUp from 'react-countup';
 import CommunityBoxes from '../../components/widgets/CommunityBoxes/CommunityBoxes';
 import CommunityJoinBox from '../../components/widgets/CommunityJoinBox/CommunityJoinBox';
+import CarouselSection from '../../components/sections/CarouselSection/CarouselSection';
 import Footer from '../../components/sections/Footer/Footer';
 
 const CommunityPage = () => {
@@ -73,7 +74,9 @@ const CommunityPage = () => {
         <CommunityJoinBox jointitle={"Chance to meet"} joindesc={"jndjnnwnwjjjndj"} />
         <CommunityJoinBox jointitle={"Great people"} joindesc={"jndjnnwnwjjjndj"} />
         </div>
-        <div className="w-1/2"></div>
+        <div className="w-1/2">
+          <CarouselSection />
+        </div>
       </div>
       <div className="button flex justify-center items-center mt-14">
           <Link to="/join" className="bg-primary text-xl px-4 py-1 rounded-md inline-block text-white">
