@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom';
 import Navbar from '../../components/widgets/Navbar/Navbar';
 import CommunityImg from '../../assets/images/communityImg.jpg';
 import CountUp from 'react-countup';
 import CommunityBoxes from '../../components/widgets/CommunityBoxes/CommunityBoxes';
+import CommunityJoinBox from '../../components/widgets/CommunityJoinBox/CommunityJoinBox';
 import Footer from '../../components/sections/Footer/Footer';
-import { Link } from 'react-router-dom';
 
 const CommunityPage = () => {
   return (
@@ -50,7 +51,7 @@ const CommunityPage = () => {
       
       {/* Community content */}
       <div className=" px-10">
-        <h2 className='text-center font-bold text-6xl text-primary mb-1'>Our Community</h2>
+        <h2 className='text-center font-bold text-4xl text-primary mb-1'>Our Community</h2>
         <p className='text-center text-gray-600 text-sm mb-9'>Lorem ipsum dolor sit amet.</p>
         <div className="communityboxes mb-10 flex flex-wrap gap-5">
           <Link to="/community/batch1" className="communitybox"><CommunityBoxes comtitle={"Batch 1"} /></Link>
@@ -62,7 +63,24 @@ const CommunityPage = () => {
       </div>
 
       {/* Why Join Us */}
-      <div className=""></div>
+      <div className="px-10 my-20">
+      <h2 className='text-center font-bold text-4xl text-primary mb-1'>Why Join Our Community?</h2>
+      <p className='text-center text-gray-600 text-sm mb-9'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Quasi autem maiores quia natus, pariatur est.</p>
+      <div className="">
+        <div className="w-1/2 flex flex-col md:pl-40 gap-5">
+        <CommunityJoinBox jointitle={"Events"} joindesc={"jndjnnwnwjjjndj"} />
+        <CommunityJoinBox jointitle={"Connection"} joindesc={"jndjnnwnwjjjndj"} />
+        <CommunityJoinBox jointitle={"Chance to meet"} joindesc={"jndjnnwnwjjjndj"} />
+        <CommunityJoinBox jointitle={"Great people"} joindesc={"jndjnnwnwjjjndj"} />
+        </div>
+        <div className="w-1/2"></div>
+      </div>
+      <div className="button flex justify-center items-center mt-14">
+          <Link to="/join" className="bg-primary text-xl px-4 py-1 rounded-md inline-block text-white">
+              Join Now
+            </Link>
+          </div>
+      </div>
       <Footer />
     </div>
   );

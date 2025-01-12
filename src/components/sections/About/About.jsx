@@ -2,7 +2,7 @@ import {Link} from "react-router"
 const About = () => {
     return (
     <>
-        <div className="w-full px-5 md:px-20 flex flex-col items-center justify-center md:flex-row bg-equiprGray">  
+        <div className="w-full px-5 py-10 md:px-20 flex flex-col items-center justify-center md:flex-row bg-equiprGray">  
             {/* First Section */}
             <div className="w-full md:w-1/2 flex justify-center items-center">jdjdjdj</div>
 
