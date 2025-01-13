@@ -66,7 +66,7 @@ const CommunityPage = () => {
       {/* Why Join Us */}
       <div className="px-10 my-20">
       <h2 className='text-center font-bold text-4xl text-primary mb-1'>Why Join Our Community?</h2>
-      <p className='text-center text-gray-600 text-sm mb-9'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Quasi autem maiores quia natus, pariatur est.</p>
+      <p className='text-center text-gray-600 text-sm mb-9'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Quasi autem maiores quia natus, pariatur esssst.</p>
       <div className="">
         <div className="w-1/2 flex flex-col md:pl-40 gap-5">
         <CommunityJoinBox jointitle={"Events"} joindesc={"jndjnnwnwjjjndj"} />
