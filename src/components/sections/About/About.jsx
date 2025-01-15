@@ -4,9 +4,9 @@ import VideoPlayerx from "../../widgets/VideoPlayerx/VideoPlayerx"
 const About = () => {
     return (
     <>
-        <div className="w-full px-5 py-10 gap-10 md:px-20 flex flex-col items-center justify-center md:flex-row bg-equiprGray">  
+        <div className="w-full px-5 py-10 gap-20 md:px-20 flex flex-col items-center justify-center md:flex-row bg-equiprGray">  
             {/* First Section */}
-            <div className="w-full md:w-1/2 flex justify-center items-center">
+            <div className="w-[300px] md:w-1/4 flex justify-center items-center">
                 <VideoPlayerx />
             </div>
 

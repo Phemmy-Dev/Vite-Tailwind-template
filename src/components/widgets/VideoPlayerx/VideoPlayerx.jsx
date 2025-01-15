@@ -1,7 +1,7 @@
 
 import Plyr from 'plyr-react';
 import 'plyr-react/plyr.css';
-import Video from '../../../assets/images/video2.mp4';
+import Video from '../../../assets/images/video3.mp4';
 
 const VideoPlayerx = () => {
   
@@ -24,7 +24,7 @@ const VideoPlayerx = () => {
   
   
   return (
-    <div className='relative w-full max-w-4xl mx-auto p-4 bg-gray-800 rounded-lg shadow-lg'>
+    <div className='relative w-full max-w-xl mx-auto p-4 bg-gray-800 rounded-lg shadow-lg'>
       <Plyr source={videoSource} options={options}/>
     </div>
   )

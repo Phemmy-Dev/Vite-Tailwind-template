@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 // import PropTypes from 
 
 const CommunityJoinBox = (props) => {
@@ -10,4 +10,8 @@ const CommunityJoinBox = (props) => {
   )
 }
 
+CommunityJoinBox.propTypes = {
+    jointitle: 'string',
+    joindesc: 'string'
+}
 export default CommunityJoinBox
