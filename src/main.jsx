@@ -5,6 +5,7 @@ import './index.css'
 import Homepage from './pages/Homepage/Homepage.jsx';
 import AboutPage from './pages/AboutPage/AboutPage.jsx';
 import CommunityPage from './pages/CommunityPage/CommunityPage.jsx';
+import ProgramsPage from './pages/ProgramsPage/ProgramsPage.jsx';
 import ContactPage from './pages/ContactPage/ContactPage.jsx';
 
 
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/programs',
-    // element: <App />,
+    element: <ProgramsPage />,
   },
   {
     path: '/community',
