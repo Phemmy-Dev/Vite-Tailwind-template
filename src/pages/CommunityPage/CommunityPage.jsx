@@ -28,7 +28,7 @@ const CommunityPage = () => {
           <h2 className="text-white text-4xl font-bold w-[70%]">Connect, Share and Grow</h2>
           <p className='w-[70%]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, ducimus.</p>
           <div className="button">
-          <Link to="/join" className="bg-primary text-xl px-4 py-1 rounded-md inline-block text-white">
+          <Link to="/join" className="bg-primary text-xl font-semibold px-4 py-1 rounded-md inline-block text-white transition-all duration-300 hover:bg-blue-400 active:scale-95">
               Join Now
             </Link>
           </div>
@@ -79,7 +79,7 @@ const CommunityPage = () => {
         </div>
       </div>
       <div className="button flex justify-center items-center mt-14">
-          <Link to="/join" className="bg-primary text-xl px-4 py-1 rounded-md inline-block text-white">
+          <Link to="/join" className="bg-primary text-xl px-4 py-1 font-semibold rounded-md inline-block text-white transition-all duration-300 hover:bg-blue-400 active:scale-95">
               Join Now
             </Link>
           </div>

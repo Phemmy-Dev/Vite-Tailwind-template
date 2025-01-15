@@ -15,7 +15,7 @@ const CTA = () => {
                 <p className="text-primary">Lorem ipsum dolor sit, amet consectetur adipisicing</p>
                 <h2 className="text-3xl md:text-4xl font-bold my-2">Ready to get started?</h2>
                 {/* <p className="text-lg mt-3">Equip-r is ready to help you take the next step in your career.</p> */}
-                <button className="bg-primary px-4 py-2 text-white font-semibold text-sm mt-3 rounded-md">Get Started</button>
+                <button className="bg-primary px-4 py-2 text-white font-semibold text-sm mt-3 rounded-md transition-all duration-300 hover:bg-blue-400 active:scale-95">Get Started</button>
             </div>
         </div>
         </div>

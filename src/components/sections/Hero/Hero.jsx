@@ -32,7 +32,7 @@ const Hero = () => {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nobis in
           error repellat voluptatibus ad.
         </p>
-        <button className="bg-primary text-white font-semibold py-2 px-4 rounded transition-all hover:bg-blue-400 active:scale-95">
+        <button className="bg-primary text-white font-semibold py-2 px-4 rounded transition-all hover:bg-blue-400 active:scale-95 ">
           Join Us
         </button>
       </div>
