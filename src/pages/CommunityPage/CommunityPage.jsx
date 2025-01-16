@@ -34,13 +34,13 @@ const CommunityPage = () => {
             </Link>
           </div>
 
-          <div className="counter flex justify-center items-center gap-10 mt-5">
+          <div className="counter flex items-center gap-10 mt-5">
             <div className="counter1 border-r-[1px] border-white pr-4">
             <CountUp end={4} className="text-2xl font-extrabold " suffix="+" />
             <p className='font-semibold text-xs md:-sm'>Years of Impact</p>
             </div>
             <div className="counter2 border-r-[1px] border-white pr-4">
-            <CountUp end={4} className="text-2xl font-extrabold " suffix="+" />
+            <CountUp end={4} className="text-2xl font-extrabold " suffix="" />
             <p className='font-semibold text-xs md:text-sm'>Batches Trained</p>
             </div>
             <div className="counter3 ">
@@ -69,7 +69,8 @@ const CommunityPage = () => {
       <h2 className='text-center font-bold text-3xl md:text-4xl text-primary mb-1'>Why Join Our Community?</h2>
       <p className='text-center text-gray-600 text-sm mb-9 px-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quasi autem maiogires quia natus.</p>
 
-      <div className="flex flex-col justify-center items-center md:flex-row gap-5 ">
+      <div className="flex flex-col justify-center items-center md:flex-row gap-0 ">
+
         <div className="md:w-1/2 flex flex-col md:pl-40 gap-5">
         <CommunityJoinBox jointitle={"Events"} joindesc={"Equipr hosts engaging events such as workshops, networking sessions, and leadership training tailored to help members grow personally and professionally."} />
         <CommunityJoinBox jointitle={"Connection"} joindesc={"Expand your circle by connecting with like-minded individuals, mentors, and industry leaders. Equipr brings together a network of passionate changemakers to support and uplift each other."} />
@@ -80,6 +81,8 @@ const CommunityPage = () => {
           <Carousel />
         </div>
       </div>
+
+
       <div className="button flex justify-center items-center mt-14">
           <Link to="/join" className="bg-primary text-xl px-4 py-1 font-semibold rounded-md inline-block text-white transition-all duration-300 hover:bg-blue-400 active:scale-95">
               Join Now
