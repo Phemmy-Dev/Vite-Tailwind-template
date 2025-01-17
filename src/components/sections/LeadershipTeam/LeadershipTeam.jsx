@@ -7,6 +7,10 @@ import Lekan from '../../../assets/images/leaders/lekan.jpg';
 import Ayomipo from '../../../assets/images/leaders/ayomipo.jpg';
 import Enoch from '../../../assets/images/leaders/enoch.jpg';
 import Malik from '../../../assets/images/leaders/malik.jpg';
+import Jerimiah from '../../../assets/images/leaders/jerimiah.jpg';
+import Boluwatife from '../../../assets/images/leaders/boluwatife.jpg';
+import Maurel from '../../../assets/images/leaders/maurel.jpg';
+import Patricia from '../../../assets/images/leaders/patricia.jpg';
 
 const LeadershipTeam = () => {
   return (
@@ -18,13 +22,16 @@ const LeadershipTeam = () => {
 
         <div className="team_cont flex flex-wrap justify-center items-center gap-5 my-10">
             <TeamBox img={bolade} name={"Mobolade Adesokan"} title={"Founder"} />
+            <TeamBox img={Malik} name={"Maleek Kuye"} title={"Leader & Program Manager"}/>
             <TeamBox img={Josh} name={"Joshua Oroge"} title={"Leader"}/>
             <TeamBox img={Zee} name={"Aaliyah Zemaiye"} title={"Leader"}/>
             <TeamBox img={Miji} name={"Olamiji Ononuga"} title={"Leader"}/>
             <TeamBox img={Ayomipo} name={"Ayomipo "} title={"Leader"}/>
-            <TeamBox img={Lekan} name={"Lekan Iwayemi"} title={"Leader"}/>
-            <TeamBox img={Enoch} name={"Enoch"} title={"Leader"}/>
-            <TeamBox img={Malik} name={"Maleek Kuye"} title={"Leader"}/>
+            <TeamBox img={Lekan} name={"Olamilekan Iwayemi"} title={"Leader"}/>
+            <TeamBox img={Enoch} name={"Enoch Oladimeji"} title={"Leader"}/>
+            <TeamBox img={Patricia} name={"Patricia Adetuase"} title={"Leader"}/>
+            <TeamBox img={Jerimiah} name={"Ande Jeremiah Terese"} title={"Leader"}/>
+            <TeamBox img={Maurel} name={"Maurel Houatchueng "} title={"Leader"}/>
         </div>
       </div>
     </div>
