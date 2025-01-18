@@ -3,6 +3,7 @@ import Navbar from '../../components/widgets/Navbar/Navbar'
 import Hero from '../../components/sections/Hero/Hero'
 import About from '../../components/sections/About/About'
 import ImpactMetrics from '../../components/sections/ImpactMetrics/ImpactMetrics'
+import Donations from '../../components/sections/Donations/Donations'
 import CTA from '../../components/sections/CTA/CTA'
 import Footer from '../../components/sections/Footer/Footer'
 
@@ -15,6 +16,8 @@ const Homepage = () => {
       <About />
       <Spacer/>
       <ImpactMetrics />
+      <Spacer />
+      <Donations />
       <Spacer />
       <CTA />
       <Spacer />

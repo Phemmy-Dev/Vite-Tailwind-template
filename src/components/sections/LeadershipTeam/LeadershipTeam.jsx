@@ -11,6 +11,7 @@ import Jerimiah from '../../../assets/images/leaders/jerimiah.jpg';
 import Boluwatife from '../../../assets/images/leaders/boluwatife.jpg';
 import Maurel from '../../../assets/images/leaders/maurel.jpg';
 import Patricia from '../../../assets/images/leaders/patricia.jpg';
+import Sharon from '../../../assets/images/leaders/sharon.jpg';
 
 const LeadershipTeam = () => {
   return (
@@ -21,7 +22,7 @@ const LeadershipTeam = () => {
         <p className="text-xs ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, ratione?</p>
 
         <div className="team_cont flex flex-wrap justify-center items-center gap-5 my-10">
-            <TeamBox img={bolade} name={"Mobolade Adesokan"} title={"Founder"} />
+            <TeamBox img={bolade} name={"Mobolade Adesokan"} title={"Founder/Director"} />
             <TeamBox img={Malik} name={"Maleek Kuye"} title={"Leader & Program Manager"}/>
             <TeamBox img={Josh} name={"Joshua Oroge"} title={"Leader"}/>
             <TeamBox img={Zee} name={"Aaliyah Zemaiye"} title={"Leader"}/>
@@ -31,7 +32,9 @@ const LeadershipTeam = () => {
             <TeamBox img={Enoch} name={"Enoch Oladimeji"} title={"Leader"}/>
             <TeamBox img={Patricia} name={"Patricia Adetuase"} title={"Leader"}/>
             <TeamBox img={Jerimiah} name={"Ande Jeremiah Terese"} title={"Leader"}/>
+            <TeamBox img={Boluwatife} name={"Boluwatife Adetuase"} title={"Leader"}/>
             <TeamBox img={Maurel} name={"Maurel Houatchueng "} title={"Leader"}/>
+            <TeamBox img={Sharon} name={"Sharon Bamikole"} title={"Leader"}/>
         </div>
       </div>
     </div>

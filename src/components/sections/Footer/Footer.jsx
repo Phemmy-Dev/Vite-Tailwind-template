@@ -32,9 +32,9 @@ const Footer = () => {
                 <Link to={"/about"} className="text-white font-semibold hover:text-primary">
                     About Us
                 </Link>
-                <Link to={"/programs"} className="text-white font-semibold hover:text-primary">
+                {/* <Link to={"/programs"} className="text-white font-semibold hover:text-primary">
                     Programs
-                </Link>
+                </Link> */}
                 <Link to={"/community"} className="text-white font-semibold hover:text-primary">
                     Community
                 </Link>

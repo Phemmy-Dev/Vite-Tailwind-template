@@ -26,7 +26,7 @@ const Navbar = ({isTransparent}) => {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about" },
-    { name: "Programs", path: "/programs" },
+    // { name: "Programs", path: "/programs" },
     { name: "Community", path: "/community" },
     { name: "Contact Us", path: "/contact" }
   ];
