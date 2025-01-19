@@ -11,6 +11,7 @@ const VideoPlayerx = () => {
       {
         src: Video,
         type: 'video/mp4',
+        // provider: 'youtube',
       },
     ],
   };

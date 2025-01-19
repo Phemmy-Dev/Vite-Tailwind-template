@@ -38,7 +38,7 @@ const Navbar = ({isTransparent}) => {
         isTransparent && !isScrolled
           ? "bg-transparent text-white absolute top-0 left-0 w-full z-10"
           : "bg-white text-black shadow-md"
-      }  px-6 py-0`}>
+      }  px-6 py-0 md:h-[15vh]`}>
       <div className="container mx-auto px-4 flex items-center justify-between py-4">
         {/* Logo */}
         <div className="">

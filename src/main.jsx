@@ -7,6 +7,7 @@ import AboutPage from './pages/AboutPage/AboutPage.jsx';
 import CommunityPage from './pages/CommunityPage/CommunityPage.jsx';
 // import ProgramsPage from './pages/ProgramsPage/ProgramsPage.jsx';
 import ContactPage from './pages/ContactPage/ContactPage.jsx';
+import JoinPage from './pages/JoinPage/JoinPage.jsx';
 
 
 
@@ -32,8 +33,8 @@ const router = createBrowserRouter([
     element: <ContactPage />,
   },
   {
-    path: '/terms',
-    // element: <Terms />,
+    path: '/join',
+    element: <JoinPage />,
   },
   {
     path: '/privacy',

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import image1 from "../../../assets/images/herofaces/1.jpg";
 import image2 from "../../../assets/images/herofaces/2.jpg";
 import image3 from "../../../assets/images/herofaces/3.jpg";
@@ -26,15 +27,14 @@ const Hero = () => {
           Ignite Purpose
         </span>
         <h3 className="text-4xl md:text-5xl font-bold">
-        Empowering the Next Generation of Leaders in Sub-Saharan Africa
+        Empowering the Next Generation of Visionary Leaders in Sub-Saharan Africa
         </h3>
-        <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nobis in
-          error repellat voluptatibus ad.
+        <p className="text-sm md:text-base italic text-slate-700 my-4 md:my-6">
+        Equipr connects young minds with opportunities, mentorship, and resources to inspire a brighter future across the region.
         </p>
-        <button className="bg-primary text-white font-semibold py-2 px-4 rounded transition-all hover:bg-blue-400 active:scale-95 ">
-          Join Us
-        </button>
+        <Link to={"join"} className="bg-primary text-white font-semibold py-2 px-4 rounded transition-all hover:bg-blue-400 active:scale-95 ">
+        Join Us
+        </Link>
       </div>
       <ShuffleGrid />
     </section>

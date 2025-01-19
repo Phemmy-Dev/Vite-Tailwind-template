@@ -6,15 +6,18 @@ const About = () => {
     <>
         <div className="w-full px-5 py-10 gap-20 md:px-20 flex flex-col items-center justify-center md:flex-row bg-equiprGray">  
             {/* First Section */}
-            <div className="w-[300px] md:w-1/4 flex justify-center items-center">
+            <div className="w-[350px] md:w-1/4 flex justify-center items-center">
                 <VideoPlayerx />
             </div>
 
             {/* Second Section */}
             <div className="w-full md:w-1/2 flex flex-col justify-center gap-2">
-            <p className="text-primary">We are igniting purpose</p>
-            <h2 className="font-bold text-4xl ">Lorem ipsum dolor, sit amet consectetur adipisicing elit!</h2>
-            <p className="text-sm mt-3"> At Equip-r, we connect young minds with tools to enhance their search for relevance in their chosen sector of influence. We create learning opportunities, environments that allow young people to flourish and go beyond the boundaries of their current location within Sub-Saharan Africa. We achieve this by partnering with global organisations and network; providing tools to empower them: training, mentorship, grants, equipment that allows them to tap into networking environments made possible by technological advancements..</p>
+            <p className="text-primary">Igniting Purpose, Transforming Futures</p>
+            <h2 className="font-bold text-3xl md:text-4xl ">Empowering Young Minds to Shape Tomorrow’s Africa</h2>
+            <p className="text-sm mt-3"> At Equipr, we are on a mission to unlock the untapped potential of young leaders across Sub-Saharan Africa. We connect ambitious minds with tools, opportunities, and environments that foster growth, innovation, and impact.
+                <br /> <br />
+                Through strategic partnerships with global organizations, we provide training, mentorship, funding, and access to cutting-edge technology, enabling youth to overcome barriers and thrive in their chosen fields of influence. Our programs are designed to inspire resilience, collaboration, and purpose—transforming local challenges into global solutions and empowering a generation to lead with confidence.
+            </p>
             <Link to={"/about"}><button className="bg-primary px-4 py-2 text-white font-semibold text-sm mt-3 rounded-md transition-all duration-300 hover:bg-blue-400 active:scale-95 ">Discover More</button></Link>
             </div>
         </div>

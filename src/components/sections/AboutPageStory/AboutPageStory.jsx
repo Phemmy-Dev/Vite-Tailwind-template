@@ -22,13 +22,16 @@ const AboutPageStory = () => {
             <div className="right_section w-full md:w-1/2">
                 <h2 className="text-3xl font-bold text-primary md:text-6xl mb-2">Our Story</h2>
                 <div className="w-24 h-1 bg-primary mb-5"></div> {/* Underline */}
-                <p className="text-sm"> At Equip-r, we connect young minds with tools to enhance their search for relevance in their chosen sector of influence. We create learning opportunities, environments that allow young people to flourish and go beyond the boundaries of their current location within Sub-Saharan Africa. We achieve this by partnering with global organisations and network; providing tools to empower them: training, mentorship, grants, equipment that allows them to tap into networking environments made possible by technological advancements.
+                <p className="text-sm"> At Equipr, we are on a mission to empower young minds across Sub-Saharan Africa with the resources, opportunities, and networks they need to excel. By connecting ambitious youth to tools that enhance their relevance in their chosen sectors, we enable them to break barriers and thrive in a competitive global environment.
                     <br />
                     <br />
-                In young people in the Sub-Saharan region, we see a formidable force full of untapped potentials due to lack of resource and opportunity. Within the right community, young people can only become a better version of themselves ensuring that future of the region is one that enjoys all the benefits that accompanies advancements in all sectors of the global stage.
+                    We create transformative learning experiences and supportive environments that allow young people to realize their potential, moving beyond the constraints of their current circumstances. Through strategic partnerships with global organizations, we deliver world-class training, mentorship, grants, and equipment—equipping the next generation to tap into global opportunities made possible by technological innovation.
                 <br />
                 <br />
-                We see ourselves, not just as enablers of youth development; we see ourselves as nation builders and world changers.
+                In the youth of Sub-Saharan Africa, we see a force brimming with untapped potential, often hindered by limited access to resources and opportunities. By fostering a thriving community, we enable young people to grow into the best versions of themselves, ensuring a future where the region stands strong on the global stage.
+                <br /> <br />
+                At Equipr, we are more than just enablers of youth development; we see ourselves as architects of progress, nation builders, and changemakers. Together, we are shaping a brighter future, one empowered leader at a time.
+
                 </p>
             </div>
         </div>
