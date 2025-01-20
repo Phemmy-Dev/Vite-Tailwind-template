@@ -14,7 +14,7 @@ const About = () => {
             <div className="w-full md:w-1/2 flex flex-col justify-center gap-2">
             <p className="text-primary">Igniting Purpose, Transforming Futures</p>
             <h2 className="font-bold text-3xl md:text-4xl ">Empowering Young Minds to Shape Tomorrow’s Africa</h2>
-            <p className="text-sm mt-3"> At Equipr, we are on a mission to unlock the untapped potential of young leaders across Sub-Saharan Africa. We connect ambitious minds with tools, opportunities, and environments that foster growth, innovation, and impact.
+            <p className="text-sm mt-3"> At Equipr, we are on a mission to unlock the untapped potential of young leaders across Sub-Saharan Africa. We connect ambitious minds with tools, opportunities, and environments that foster growth, innovation, and impact
                 <br /> <br />
                 Through strategic partnerships with global organizations, we provide training, mentorship, funding, and access to cutting-edge technology, enabling youth to overcome barriers and thrive in their chosen fields of influence. Our programs are designed to inspire resilience, collaboration, and purpose—transforming local challenges into global solutions and empowering a generation to lead with confidence.
             </p>
