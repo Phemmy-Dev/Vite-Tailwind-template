@@ -12,7 +12,7 @@ const AboutPage = () => {
   return (
     <div>
         <Navbar isTransparent={false} />
-        <CurvedHero img={CurvedHeroImg} heading={"About Us"} subHeading={"Who We Are, Our Goals And More...."}/>
+        <CurvedHero img={CurvedHeroImg} heading={"About Us"} subHeading={"Who We Are, Our Goals And More..."}/>
         <AboutPageStory />
         <AboutPageVisionMission />
         <AboutPageValues />
