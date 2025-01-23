@@ -27,7 +27,12 @@ const About = () => {
                 <br /> <br />
                 Through strategic partnerships with global organizations, we provide training, mentorship, funding, and access to cutting-edge technology, enabling youth to overcome barriers and thrive in their chosen fields of influence. Our programs are designed to inspire resilience, collaboration, and purpose—transforming local challenges into global solutions and empowering a generation to lead with confidence.
             </p>
-            <Link to={"/about"}><button className="bg-primary px-4 py-2 text-white font-semibold text-sm mt-3 rounded-md transition-all duration-300 hover:bg-blue-400 active:scale-95 ">Discover More</button></Link>
+            <Link to={"/about"}>
+            <motion.button 
+            className="bg-primary px-4 py-2 text-white font-semibold text-sm mt-3 rounded-md transition-all duration-300 hover:bg-blue-400 active:scale-95"
+            whileHover={{ scale: 0.95}}
+            transition={{ duration: 0.1 }}
+            >Discover More</motion.button></Link>
             </motion.div>
         </motion.div>
     </>
