@@ -30,7 +30,7 @@ const About = () => {
             <Link to={"/about"}>
             <motion.button 
             className="bg-primary px-4 py-2 text-white font-semibold text-sm mt-3 rounded-md transition-all duration-300 hover:bg-blue-400 active:scale-95"
-            whileHover={{ scale: 0.95}}
+            whileHover={{ scale: 0.96}}
             transition={{ duration: 0.1 }}
             >Discover More</motion.button></Link>
             </motion.div>
