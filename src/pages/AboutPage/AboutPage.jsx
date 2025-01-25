@@ -15,6 +15,7 @@ const AboutPage = () => {
         <CurvedHero img={CurvedHeroImg} heading={"About Us"} subHeading={"Who We Are, Our Goals And More..."}/>
         <AboutPageStory />
         <AboutPageVisionMission />
+  
         <AboutPageValues />
         <LeadershipTeam />
         <Footer />

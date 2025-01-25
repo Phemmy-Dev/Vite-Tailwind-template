@@ -4,12 +4,28 @@ import learnIcon from '../../../assets/images/icons/learn.png'
 import connectedIcon from '../../../assets/images/icons/connected.png'
 import focusedIcon from '../../../assets/images/icons/focused.png'
 import honestIcon from '../../../assets/images/icons/honest.png'
+import { motion } from "framer-motion";
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.3, // Stagger effect of 0.3s
+    },
+  },
+};
 
 const AboutPageValues = () => {
   return (
     <div className="py-20">
         <h2 className="text-4xl text-center font-bold text-primary mb-10 md:text-5xl">Our Core Values</h2>
-        <div className="flex flex-wrap justify-around items-center gap-10">
+        <motion.div 
+        className="flex flex-wrap justify-around items-center gap-10 "
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.2 }} >
         <ValueWidget icon={<img src={advanceIcon} alt="Advance Icon" />} valueTitle={"Keep Advancing"} valueDesc={"Innovation empowers us to stay relevant and meet the ever-changing needs of those we serve. We are committed to maintaining a quality-focused approach while embracing change to improve our standards. By setting ambitious goals, we challenge ourselves to achieve greater impact, driving progress within Sub-Saharan Africa and beyond."}/>
 
         <ValueWidget icon={<img src={learnIcon} alt="Learn Icon" />} valueTitle={"Keep Learning"} valueDesc={"We rely on well-researched, proven tools to foster growth and innovation. By expanding our knowledge base, we build the confidence needed to redefine the narrative of the communities we serve. This proactive approach helps us identify challenges and create effective solutions tailored to the specific needs of every region."}/>
@@ -19,7 +35,7 @@ const AboutPageValues = () => {
         <ValueWidget icon={<img src={focusedIcon} alt="Focused Icon" />} valueTitle={"Stay Focused"} valueDesc={"Our mission is fueled by a clear focus and strong partnerships. We set achievable goals in collaboration with local communities and global networks. This disciplined approach ensures we consistently deliver meaningful results that align with our vision."}/>
 
         <ValueWidget icon={<img src={honestIcon} alt="Honest Icon" />} valueTitle={"Be honest"} valueDesc={"Trust and transparency are at the core of everything we do. We value integrity and mutual respect, fostering relationships built on honesty. By maintaining high ethical standards, we strengthen trust within our organization, partners, and the youth we serve."}/>
-        </div>
+        </motion.div>
     </div>
   )
 }
