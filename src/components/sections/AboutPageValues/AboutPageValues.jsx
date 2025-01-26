@@ -19,7 +19,11 @@ const containerVariants = {
 const AboutPageValues = () => {
   return (
     <div className="py-20">
-        <h2 className="text-4xl text-center font-bold text-primary mb-10 md:text-5xl">Our Core Values</h2>
+        <motion.h2 
+        className="text-4xl text-center font-bold text-primary mb-10 md:text-5xl"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1}}
+        transition={{delay: 0.4, duration: 0.3 }}>Our Core Values</motion.h2>
         <motion.div 
         className="flex flex-wrap justify-around items-center gap-10 "
         variants={containerVariants}
