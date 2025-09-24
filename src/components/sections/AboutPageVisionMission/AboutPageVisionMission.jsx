@@ -26,8 +26,8 @@ const AboutPageVisionMission = () => {
         variants={containerVariants}
         initial="hidden"
         whileInView="visible">
-        <Goalbox title={"Our Vision"} description={"Create ecosystems that will bridge gaps in education and networking, creating sustainable opportunities for generations of young people and their families in Sub-Saharan Africa."} />
-        <Goalbox title={"Our Mission"} description={"To equip and empower the next generation of African leaders."}/>
+        <Goalbox title={"Our Vision"} description={"Create ecosystems that will bridge gaps in education and networking, creating sustainable opportunities for generations of young people and their families globally."} />
+        <Goalbox title={"Our Mission"} description={"To equip and empower the next generation of global leaders."}/>
         </motion.div>
         {/* Right Side */}
         <motion.div 
