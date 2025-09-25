@@ -380,8 +380,8 @@ const LeadershipTeam = () => {
               <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
                 {[
                   { number: teamMembers.length + 1, label: "Team Members", delay: 2.8 },
-                  { number: "10+", label: "Countries Represented", delay: 3 },
-                  { number: "5+", label: "Years of Impact", delay: 3.2 },
+                  { number: "5+", label: "Countries Represented", delay: 3 },
+                  { number: "3+", label: "Years of Impact", delay: 3.2 },
                   { number: "∞", label: "Possibilities Ahead", delay: 3.4 }
                 ].map((stat, index) => (
                   <motion.div 

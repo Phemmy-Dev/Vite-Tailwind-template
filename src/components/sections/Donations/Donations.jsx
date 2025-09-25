@@ -2,6 +2,10 @@
 import { motion } from "framer-motion";
 
 const Donations = () => {
+  const handleContactUs = () => {
+    window.location.href = 'mailto:equiprafricamedia@gmail.com?subject=Partnership and Support Inquiry&body=Hello Equipr Team,%0D%0A%0D%0AI am interested in supporting your mission. Please let me know how I can get involved.%0D%0A%0D%0AThank you!';
+  };
+
   return (
     <section className="relative py-16 md:py-24 bg-gray-50 overflow-hidden">
       {/* Background Pattern */}
@@ -268,6 +272,7 @@ const Donations = () => {
                 Get Started Today
               </motion.button>
               <motion.button 
+                onClick={handleContactUs}
                 className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold hover:bg-white hover:text-primary transition-all duration-300"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}>

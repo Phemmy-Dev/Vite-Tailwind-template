@@ -1,10 +1,17 @@
 import ImpactBg from "../../../assets/images/impactmetricsBG1.jpg"
 import CountUp from 'react-countup';
 import { motion } from "framer-motion";
+import { useNavigate } from 'react-router-dom';
 
 
 
 const ImpactMetrics = () => {
+  const navigate = useNavigate();
+
+  const handleJoinCommunity = () => {
+    navigate('/join');
+  };
+
   return (
     <section className="relative py-16 md:py-24 bg-white overflow-hidden">
       {/* Background with improved overlay */}
@@ -97,7 +104,7 @@ const ImpactMetrics = () => {
                 </svg>
               </div>
               <CountUp 
-                end={4} 
+                end={3} 
                 suffix="+"
                 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white block mb-3" 
                 duration={2.5}
@@ -123,7 +130,7 @@ const ImpactMetrics = () => {
                 </svg>
               </div>
               <CountUp 
-                end={4} 
+                end={5} 
                 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white block mb-3" 
                 duration={2.5}
                 enableScrollSpy={true}
@@ -148,7 +155,7 @@ const ImpactMetrics = () => {
                 </svg>
               </div>
               <CountUp 
-                end={100} 
+                end={400} 
                 suffix="+"
                 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white block mb-3" 
                 duration={2.5}
@@ -201,7 +208,9 @@ const ImpactMetrics = () => {
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}>
-            <button className="inline-flex items-center px-8 py-4 bg-white text-primary font-bold rounded-xl hover:bg-gray-100 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl">
+            <button 
+              onClick={handleJoinCommunity}
+              className="inline-flex items-center px-8 py-4 bg-white text-primary font-bold rounded-xl hover:bg-gray-100 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl">
               Join Our Community
               <svg className="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
