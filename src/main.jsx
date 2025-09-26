@@ -8,6 +8,7 @@ import CommunityPage from './pages/CommunityPage/CommunityPage.jsx';
 // import ProgramsPage from './pages/ProgramsPage/ProgramsPage.jsx';
 import ContactPage from './pages/ContactPage/ContactPage.jsx';
 import JoinPage from './pages/JoinPage/JoinPage.jsx';
+import NotFoundPage from './pages/NotFoundPage/NotFoundPage.jsx';
 
 
 
@@ -37,14 +38,9 @@ const router = createBrowserRouter([
     element: <JoinPage />,
   },
   {
-    path: '/privacy',
-    // element: <Privacypage />,
-  },
-  {
-    path: '/contact',
-    // element: <ContactPage />,
-  },
-
+    path: '*',
+    element: <NotFoundPage />,
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(

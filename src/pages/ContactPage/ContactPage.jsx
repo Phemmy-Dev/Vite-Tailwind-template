@@ -54,9 +54,9 @@ const ContactPage = () => {
                       <p className="text-sm text-gray-600">West Africa Hub</p>
                     </div>
                   </div>
-                  <a href="tel:+2349081002507" 
+                  <a href="tel:+2347063480982" 
                      className="block text-center text-xl font-mono bg-white rounded-lg py-3 px-4 text-primary hover:bg-primary hover:text-white transition-all duration-300 shadow-sm">
-                    +234 908 100 2507
+                    +234 706 348 0982
                   </a>
                 </div>
               </div>

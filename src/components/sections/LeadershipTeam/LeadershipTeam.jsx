@@ -46,7 +46,7 @@ const LeadershipTeam = () => {
     img: bolade,
     name: "Mobolade Adesokan",
     title: "Founder & Executive Director",
-    description: "Visionary leader driving global impact and empowering youth worldwide"
+    description: "Visionary leader driving global impact and empowering diverse ecosystems worldwide"
   };
 
   const teamMembers = [

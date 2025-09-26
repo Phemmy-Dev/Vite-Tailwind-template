@@ -102,7 +102,7 @@ const CommunityPage = () => {
                 <div className="text-center">
                   <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-xl p-4 border border-white border-opacity-30">
                     <CountUp 
-                      end={4} 
+                      end={5} 
                       className="text-2xl md:text-3xl font-bold text-white block" 
                       duration={2.5}
                     />
