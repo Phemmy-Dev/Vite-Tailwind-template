@@ -155,9 +155,9 @@ const ContactPage = () => {
                 we're excited to hear from you.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:+2349081002507" 
+                <a href="tel:+2347063480982" 
                    className="bg-white text-primary px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition-colors duration-300">
-                  Call Nigeria: +234 908 100 2507
+                  Call Nigeria: +234 706 348 0982
                 </a>
                 <a href="tel:+447904932366" 
                    className="bg-white text-primary px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition-colors duration-300">
