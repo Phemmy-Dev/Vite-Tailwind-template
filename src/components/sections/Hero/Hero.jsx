@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import image1 from "../../../assets/images/herofaces/1.jpg";
 import image2 from "../../../assets/images/herofaces/2.jpg";
 import image3 from "../../../assets/images/herofaces/3.jpg";
-import image4 from "../../../assets/images/herofaces/4.jpg";
+import image4 from "../../../assets/images/herofaces/18.jpg";
 import image5 from "../../../assets/images/herofaces/5.jpg";
 import image6 from "../../../assets/images/herofaces/6.jpg";
 import image7 from "../../../assets/images/herofaces/7.jpg";
@@ -14,7 +14,7 @@ import image10 from "../../../assets/images/herofaces/10.jpg";
 import image11 from "../../../assets/images/herofaces/11.jpg";
 import image12 from "../../../assets/images/herofaces/12.jpg";
 import image13 from "../../../assets/images/herofaces/13.jpg";
-import image14 from "../../../assets/images/herofaces/14.jpg";
+import image14 from "../../../assets/images/herofaces/17.jpg";
 import image15 from "../../../assets/images/herofaces/15.jpg";
 import image16 from "../../../assets/images/herofaces/16.jpg";
 
